@@ -1,0 +1,31 @@
+C        1         2         3         4         5         6         7         8
+C 345678901234567890123456789012345678901234567890123456789012345678901234567890
+BEGIN NEW DATA CASE
+CABLE CONSTANTS
+C Cable-model Control Card
+C --key----|       |<--model--<--Q-optn-<-freq-q--<--length-| |<--ext-<ipch<irun
+CABLE-MODEL         FD-MODEL  FDQ             1000       100   EXT-DAT
+C 
+C External filename 
+C 
+test.dat                                                                        
+C 
+C -NPHS--|---FDC---|--FMIN---|-NPD|-NDC| 
+         4         0       .01    5    3
+C 
+C 
+C ------------------------------------------------------------------------------
+C 
+C Optional cards
+C        1         2         3
+C 3456789 123456789 123456789 1
+.DBGCBL             0 1
+.OUTCBL             0 0 0 1  
+.CTLFIT            25-1 1 0 0 0
+.OUTFIT            -1-1-1
+.DBGFIT             0
+C 
+BLANK CARD ENDING CABLE-MODEL DATA
+BLANK CARD ENDING CABLE CONSTANTS DATA CASE
+BEGIN NEW DATA CASE
+BLANK

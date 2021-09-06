@@ -1,0 +1,24 @@
+->Created output file: Y:\Dev\Simulation\Cable\mdl_6phCable_pj\mdl_6phCable.out
+->Created output file: Y:\Dev\Simulation\Cable\mdl_6phCable_pj\mdl_6phCable.html
+->START Reading input data
+Circuit Diagram: Circuit.Diagram=mdl_6phCable.ecf
+Circuit date: 2/9/2021 16:07:44
+->END Reading input data
+->EMTP version 4.2 started
+->Simulation date: 21/09/02
+->Simulation time: 20:55:23.738
+Input Netlist file, EMTP format: Y:\Dev\Simulation\Cable\mdl_6phCable.net
+->Number of data lines: 180
+->START harmonic steady-state solution
+->END harmonic steady-state solution
+->START time-domain solution
+->Created MCAT/MPLOT plot header M-file: Y:\Dev\Simulation\Cable\mdl_6phCable_pj\mdl_6phCablem.m
+->Created binary plot file: Y:\Dev\Simulation\Cable\mdl_6phCable_pj\mdl_6phCable.mda
+->END time-domain solution
+
+->START simulation statistics
+
+->END simulation statistics
+EMTP terminated
+Date: 21/09/02
+Time: 20:55:40.060

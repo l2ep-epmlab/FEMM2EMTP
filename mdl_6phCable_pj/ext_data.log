@@ -1,0 +1,13 @@
+Wideband line/cable model fitting function start
+31-Aug-2021 17:48:59
+Input data file: C:\Users\Energies\Dev\EMTP\Cable\mdl_6phcable_pj\ext_data.cyz
+Fitting Propagation function H:
+  Maximum residue/pole ratio: 0.99937
+  Maximum absolute error: 0.0054855
+Fitting Yc:
+  Maximum relative error: 0.0071282
+
+The Wideband Model is passive.
+Wideband Model generated, model data file: C:\Users\Energies\Dev\EMTP\Cable\ext_data.mod
+31-Aug-2021 17:49:04
+Wideband line/cable model fitter ended.

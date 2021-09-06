@@ -1,0 +1,247 @@
+ CABLE MODEL DATA GENERATION FUNCTION 
+ RUN DATE/TIME 21/08/30              16:54:13.449        
+ Software version: VERSION 1.1   
+ --------------------------------------------------+--------------------------------------------------------------------------------
+ DESCRIPTIVE INTERPRETATION OF INPUT DATA
+                                                   0         0         0         0         0         0         0         0         0
+ --------------------------------------------------+--------------------------------------------------------------------------------
+ COMMENT .....                                     1C        1         2         3         4         5         6         7         8
+ COMMENT .....                                     1C 345678901234567890123456789012345678901234567890123456789012345678901234567890
+                                                   1BEGIN NEW DATA CASE                                                             
+ Marker for new data
+                                                   1CABLE CONSTANTS                                                                 
++TRANSFER TO "CABLE CONSTANTS".  TYPE =     0
+ COMMENT .....                                     1C CABLE-MODEL CONTROL CARD                                                      
+ COMMENT .....                                     1C --KEY----|       |<--MODEL--<--Q-OPTN-<-FREQ-Q--<--LENGTH-| |<--EXT-<IPCH<IRUN
+                                                   1CABLE-MODEL         FD-MODEL  FDQ             1000        15                    
++CABLE-MODEL CONTROL DATA
+ COMMENT .....                                     1C                                                                               
+ COMMENT .....                                     1C CABLE-TYPE CARD                                                               
+ COMMENT .....                                     1C  TY<NCBL<IXBD                                                                 
+                                                   1   SC    3    0                                                                 
++CABLES TYPE, NUMBER, CROSSBOND:   SC    3    0
+ COMMENT .....                                     1C ------------------------------------------------------------------------------
+ COMMENT .....                                     1C DATA FOR SC CABLE # 1 FOLLOWS                                                 
+ COMMENT .....                                     1C                                                                               
+ COMMENT .....                                     1C SC CABLE: INDIVIDUAL CABLE CARD                                               
+ COMMENT .....                                     1C NCN|  |<----VRT---<----HRZ--<--ROUT---                                        
+                                                   1    2            1.1       0.0   .029335                                        
++NO. OF CONDUCTORS (SAME), POSITION OF CABLE  1
+ COMMENT .....                                     1C                                                                               
+ COMMENT .....                                     1C SC CABLE: CONDUCTOR/INSULATOR CARD                                            
+ COMMENT .....                                     1C --RIN---<--ROUT---<---RHO---<---MUE---<--MUE-I--<--EPS-I--<--LFCT---<-KPH     
+                                                   1   .003175    .01254     17E-7         1         1       3.5     .0004    1     
++RADII, PHYSICAL CONSTANTS OF COND./INSUL.  1
+                                                   1   .022735   .026225     21E-6         1         1       2.0     .0004    2     
++RADII, PHYSICAL CONSTANTS OF COND./INSUL.  2
+ COMMENT .....                                     1C ------------------------------------------------------------------------------
+ COMMENT .....                                     1C DATA FOR SC CABLE # 2 FOLLOWS                                                 
+ COMMENT .....                                     1C                                                                               
+ COMMENT .....                                     1C SC CABLE: INDIVIDUAL CABLE CARD                                               
+ COMMENT .....                                     1C NCN|  |<----VRT---<----HRZ--<--ROUT---                                        
+                                                   1    2            1.1       .25   .029335                                        
++NO. OF CONDUCTORS (SAME), POSITION OF CABLE  2
+ COMMENT .....                                     1C                                                                               
+ COMMENT .....                                     1C SC CABLE: CONDUCTOR/INSULATOR CARD                                            
+ COMMENT .....                                     1C --RIN---<--ROUT---<---RHO---<---MUE---<--MUE-I--<--EPS-I--<--LFCT---<-KPH     
+                                                   1   .003175    .01254     17E-7         1         1       3.5     .0004    3     
++RADII, PHYSICAL CONSTANTS OF COND./INSUL.  1
+                                                   1   .022735   .026225     21E-6         1         1       2.0     .0004    4     
++RADII, PHYSICAL CONSTANTS OF COND./INSUL.  2
+ COMMENT .....                                     1C ------------------------------------------------------------------------------
+ COMMENT .....                                     1C DATA FOR SC CABLE # 3 FOLLOWS                                                 
+ COMMENT .....                                     1C                                                                               
+ COMMENT .....                                     1C SC CABLE: INDIVIDUAL CABLE CARD                                               
+ COMMENT .....                                     1C NCN|  |<----VRT---<----HRZ--<--ROUT---                                        
+                                                   1    2            1.1        .5   .029335                                        
++NO. OF CONDUCTORS (SAME), POSITION OF CABLE  3
+ COMMENT .....                                     1C                                                                               
+ COMMENT .....                                     1C SC CABLE: CONDUCTOR/INSULATOR CARD                                            
+ COMMENT .....                                     1C --RIN---<--ROUT---<---RHO---<---MUE---<--MUE-I--<--EPS-I--<--LFCT---<-KPH     
+                                                   1   .003175    .01254     17E-7         1         1       3.5     .0004    5     
++RADII, PHYSICAL CONSTANTS OF COND./INSUL.  1
+                                                   1   .022735   .026225     21E-6         1         1       2.0     .0004    6     
++RADII, PHYSICAL CONSTANTS OF COND./INSUL.  2
+ COMMENT .....                                     1C ------------------------------------------------------------------------------
+ COMMENT .....                                     1C                                                                               
+ COMMENT .....                                     1C EARTH/FREQUENCY CARD                                                          
+ COMMENT .....                                     1C -RHO-E--<--MUE-E--<---FG0---|   |<FSCL<---FMIN--<-NPD<-NDC<---FDC---          
+                                                   1       100       1.0     100.0     LOG         .01   15    9         0          
++EARTH RESIS.,PERMEAB., FREQUENCIES
+   NOTE: NPDEC INCREASED TO    20
+ COMMENT .....                                     1C                                                                               
+ COMMENT .....                                     1C ------------------------------------------------------------------------------
+ COMMENT .....                                     1C                                                                               
+ COMMENT .....                                     1C OPTIONAL CARDS                                                                
+ COMMENT .....                                     1C        1         2         3                                                  
+ COMMENT .....                                     1C 3456789 123456789 123456789 1                                                 
+                                                   1.DBGCBL             0 1                                                         
++DEBUG, Q-ROTATION OPTIONS  0  1
+                                                   1.OUTCBL             0 0 0 1                                                     
++OUTPUT OPTIONS Z/Y/MODE  0  0  0  1  0
+                                                   1.CTLFIT            25-1 1 0 0 0                                                 
++FIT CONTROLS   25  -1   1   0   0   0
+                                                   1.OUTFIT            -1-1-1                                                       
++FIT OUTPUTS    -1  -1  -1
+                                                   1.DBGFIT             0                                                           
++FIT DEBUG       0
+ COMMENT .....                                     1C                                                                               
+                                                   1BLANK CARD ENDING CABLE-MODEL DATA                                              
++BLANK CARD TERMINATING CABLE-MODEL CASE
+1
+
+
+                                        ****************************************
+
+                                        *             CABLE  MODEL             *
+
+                                        ****************************************
+
+
+   ==============================================   DATA DESCRIPTION   ==============================================
+
+
+   DESIRED MODEL:                      FD-MODEL
+   TRANSFORMATION MATRIX (Q) OPTION:   FDQ   
+   CABLE LENGTH (KM):                  0.15000E+02
+
+   CABLE TYPE:                         SC (SINGLE-CORE)
+   NUMBER OF SC CABLES:                  3
+   CROSSBONDING THE SHEATHS:           NO
+
+
+   CABLE NUMBER:   1
+
+        --------------------------- CONDUCTORS --------------------------   -------------- INSULATORS -------------
+        NO.    INSIDE      OUTSIDE     RESISTIVITY    RELATIVE    PHASE       RELATIVE      RELATIVE        LOSS
+             RADIUS (M)   RADIUS (M)     (OHM-M)    PERMEABILITY  NUMBER    PERMEABILITY  PERMITTIVITY     FACTOR
+        -----------------------------------------------------------------   ---------------------------------------
+
+         1    0.003175     0.012540    0.17000E-05     1.00000      1          1.00000       3.50000    0.40000E-03
+
+         2    0.022735     0.026225    0.21000E-04     1.00000      2          1.00000       2.00000    0.40000E-03
+
+        OUTSIDE INSULATOR RADIUS (M):     0.029335
+
+        VERTICAL DEPTH (M):                1.10000
+        HORIZONTAL DISTANCE (M):           0.00000
+
+
+   CABLE NUMBER:   2
+
+        --------------------------- CONDUCTORS --------------------------   -------------- INSULATORS -------------
+        NO.    INSIDE      OUTSIDE     RESISTIVITY    RELATIVE    PHASE       RELATIVE      RELATIVE        LOSS
+             RADIUS (M)   RADIUS (M)     (OHM-M)    PERMEABILITY  NUMBER    PERMEABILITY  PERMITTIVITY     FACTOR
+        -----------------------------------------------------------------   ---------------------------------------
+
+         1    0.003175     0.012540    0.17000E-05     1.00000      3          1.00000       3.50000    0.40000E-03
+
+         2    0.022735     0.026225    0.21000E-04     1.00000      4          1.00000       2.00000    0.40000E-03
+
+        OUTSIDE INSULATOR RADIUS (M):     0.029335
+
+        VERTICAL DEPTH (M):                1.10000
+        HORIZONTAL DISTANCE (M):           0.25000
+
+
+   CABLE NUMBER:   3
+
+        --------------------------- CONDUCTORS --------------------------   -------------- INSULATORS -------------
+        NO.    INSIDE      OUTSIDE     RESISTIVITY    RELATIVE    PHASE       RELATIVE      RELATIVE        LOSS
+             RADIUS (M)   RADIUS (M)     (OHM-M)    PERMEABILITY  NUMBER    PERMEABILITY  PERMITTIVITY     FACTOR
+        -----------------------------------------------------------------   ---------------------------------------
+
+         1    0.003175     0.012540    0.17000E-05     1.00000      5          1.00000       3.50000    0.40000E-03
+
+         2    0.022735     0.026225    0.21000E-04     1.00000      6          1.00000       2.00000    0.40000E-03
+
+        OUTSIDE INSULATOR RADIUS (M):     0.029335
+
+        VERTICAL DEPTH (M):                1.10000
+        HORIZONTAL DISTANCE (M):           0.50000
+
+
+   EARTH RESISTIVITY (OHM-M):          0.10000E+03
+   EARTH RELATIVE PERMEABILITY:        1.00000
+   FREQUENCY OF G BREAK-POINT (HZ):    0.10000E+03
+
+   FREQUENCY SCALE:                    LOGARITHMIC
+   MINIMUM FREQUENCY (HZ):             0.10000E-01
+   NUMBER OF POINTS PER DECADE:         20
+   NUMBER OF DECADES:                    9
+   FREQUENCY OF NEAR-DC POINT (HZ):    0.10000E-04
+
+   DEBUG OPTION:                         0
+   Q ROTATION OPTION:                    1
+   IMPEDANCE OUTPUT OPTION:              0
+   ADMITTANCE OUTPUT OPTION:             0
+   MODE OUTPUT OPTION:                   0
+
+
+  ---------------------------   FIT CONTROL PARAMETERS   ---------------------------
+
+    NORMAX  IQUICK   IXDYN  IFITYC  IFITA1   IFITQ  ICOMPF  IPLOTF   IPRAT   IBUGF
+      25      -1       1       0       0       0      -1      -1      -1       0
+
+  ----------------------------------------------------------------------------------
+
+
+   NUMBER OF PHASES (AFTER BUNDLING/GROUNDING CONDUCTORS) =    6
+
+
+  SEEDING  THE TRANSFORMATION MATRIX  Q  AT FREQUENCY   1.00000E+03 HZ :
+  ======================================================================
+
+
+
+  FIRST  FREQUENCY  LOOP :
+  ========================
+
+
+
+  SECOND  FREQUENCY  LOOP :
+  =========================
+
+
+     NUMBER OF DISTINCT ELEMNTS IN Q =   12
+     NUMBER OF   ZERO   ELEMNTS IN Q =    4
+
+
+          <<<   SIMILARITY INDICATOR OF ELEMENTS OF Q   >>>
+
+  COLUMN  1->
+                1:  -1      2:   2      3:   0      4:   0      5:  -1      6:   2
+  COLUMN  2->
+                7:   7      8:   8      9:   9     10:  -1     11:   7     12:   8
+  COLUMN  3->
+               13:   8     14:  14     15:  -1     16:  16     17:   8     18:  14
+  COLUMN  4->
+               19:  19     20:  20     21:  21     22:  -1     23:  19     24:  20
+  COLUMN  5->
+               25:  20     26:  26     27:  -1     28:  28     29:  20     30:  26
+  COLUMN  6->
+               31:  31     32:  -1     33:   0     34:   0     35:  31     36:  -1
+
+        K: K ...ELEMENT K IS DISTINCT           K:-1 ...ELEMENT K IS 1.+J0.
+        K: L ...ELEMENT K IS SIMILAR TO L       K: 0 ...ELEMENT K IS ZERO
+
+
+
+
+                                                   1BLANK CARD ENDING CABLE CONSTANTS DATA CASE                                     
++BLANK CARD TERMINATING "CABLE CONSTANTS" CASES
+                                                                                             TOTALS      0.190     0.000     0.190
+
+
+ CABLE MODEL DATA GENERATION FUNCTION 
+ RUN DATE/TIME 21/08/30              16:54:13.639        
+ Software version: VERSION 1.1   
+ --------------------------------------------------+--------------------------------------------------------------------------------
+ DESCRIPTIVE INTERPRETATION OF INPUT DATA
+                                                   0         0         0         0         0         0         0         0         0
+ --------------------------------------------------+--------------------------------------------------------------------------------
+                                                   1BEGIN NEW DATA CASE                                                             
+ Marker for new data
+                                                   1BLANK                                                                           
++BLANK TERMINATION-OF-RUN CARD.
+    ___Normal end of run__
